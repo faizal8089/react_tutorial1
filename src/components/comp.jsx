@@ -1,12 +1,10 @@
 import React from "react";
 import logo from "../images/reactLogo.png";
-import logo2 from "../images/reactLogo2.png";
-
 function Navbar(){
     return(
         <nav className="nav">
             <div className="logo">
-                <img className="reactlogo" src={logo} alt="React image" />
+                <img className="reactlogo" src={logo} alt="" />
                 <h1 className="react_facts">ReactFacts</h1>
             </div>
             <h3 className="navDesc">React Course-Project 1</h3>
